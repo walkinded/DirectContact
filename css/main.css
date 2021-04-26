@@ -80,6 +80,11 @@ footer {
 
 .nav li {
     margin-right: 13px;
+    transition-duration: 0.3s;
+}
+
+.nav li a:hover {
+    transition-duration: 0.5s;
 }
 
 .block1 {
@@ -137,6 +142,7 @@ footer {
     margin-top: 33px;
     font-style: normal;
     font-weight: bold;
+    color: white;
     font-size: 20px;
     line-height: 45px;
     background: #EE778C;
@@ -208,9 +214,63 @@ footer {
 }
 
 .block3 {
-    background: url(../img/Rectangle23.png) center top / cover;
+    background: url(../img/Rectangle23.jpg) center top / cover;
     height: auto;
 }
+
+.block3-decisions-box {
+    /* width: 400px;
+    height: 271px; */
+    width: 311px;
+    height: 210px;
+    z-index: 1;
+} 
+
+.borter_test {
+    border: 1px solid red;
+}
+
+.block3-decisions-box p {
+    padding-top: 130px;
+    text-align: center;
+}
+
+.block3__box {
+    flex: 1 1 auto;
+    margin-top: 80px;
+    /* padding-right: 20px; */
+}
+
+.block3 p {
+    z-index: 2;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+.block3-decisions-box .block3-decisions-box-img {
+    border-radius: 15px;
+    z-index: 1;
+    /* width: 405px;
+    height: 271px; */
+    width: 311px;
+    height: 210px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.block3-imgs {
+    margin-top: 100px;
+}
+
+.block3 svg {
+    z-index: 3;
+    position: absolute;
+    /* padding-bottom: 1px; */
+}
+
 
 .block3 h2 {
     font-style: normal;
@@ -220,13 +280,6 @@ footer {
     letter-spacing: -0.015em;
     text-align: center;
     padding-top: 50px;
-}
-
-.block3 img {
-    margin-right: 19px;
-    margin-top: 60px;
-    width: auto; /* 405px; */
-    height: 300px;
 }
 
 .block3-imgs {
@@ -254,9 +307,10 @@ footer {
 .block4-size-p {
     font-weight: 900;
     font-size: 70px;
-    line-height: 79px;
+    line-height: 55px;
     letter-spacing: -0.015em;
     color: #6F3A80;
+    /* line-height: 0; */
 }
 
 .block4-p {
@@ -276,9 +330,11 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
+
 }
 
 .block4-info-center img{
+    margin-bottom: 20px;
     width: 100px;
     height: auto;
 }
@@ -350,6 +406,7 @@ footer {
     font-weight: bold;
     font-size: 20px;
     line-height: 45px;
+    color: white;
     background: #EE778C;
     border-radius: 37px;
     width: 307px;
@@ -465,6 +522,11 @@ menu{
       }
       .menu li{
           display: block;
+      }
+
+      .menu a:hover {
+          text-decoration: underline;
+          color: #494949;
       }
   /* } */
   
