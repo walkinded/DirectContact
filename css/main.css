@@ -93,18 +93,6 @@ footer {
     height: 1031px;
 }
 
-.block1-about-us {
-    height: 1031px;
-}
-
-.block1-about-us img {
-    object-fit: cover;
-    position: absolute;
-    width: 100%;
-    height: 1031px;
-    z-index: -1;
-}
-
 .block1 img {
     object-fit: cover;
     position: absolute;
@@ -578,3 +566,267 @@ menu{
       transform: rotate(135deg);
   }
 /*  */
+
+/* <aboutUs.html> */
+
+.aboutUs {
+    height: 1031px;
+    color: white;
+}
+
+.aboutUs img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 1031px;
+    z-index: -1;
+}
+
+.aboutUs__content {
+    padding-top: 257px;
+    padding-left: 406px;
+}
+
+.aboutUs__item {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.aboutUs__column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutUs__column h1 {
+    margin-bottom: 34px;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 67px;
+}
+
+.aboutUs__column h2 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.aboutUs__column_font_right {
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.column_padding_p p:nth-child(2),
+.column_padding_p p:nth-child(3) {
+    padding-left: 20px;
+}
+
+.color {
+    color: #EE778C;
+}
+
+.aboutUs2 {
+    height: 927px;
+}
+
+.aboutUs2 img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 927px;
+    z-index: -1;
+}
+
+.aboutUs2__content {
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs2__item {
+    margin-bottom: 50px;
+}
+
+.item_position_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutUs2__column h2  {
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    width: 1123px;
+    color: #6F3A80;
+}
+
+.column_size_color p {
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+}
+
+.trust {
+    height: 684px;
+}
+
+.trust img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 684px;
+    z-index: -1;
+}
+
+.trust__content {
+    padding: 80px 0 40px 0;
+}
+
+.trust__item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trust__item h2 {
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    text-align: center;
+}
+
+.trust__column img {
+    position: relative;
+    width: 196px;
+    height: 196px;
+    flex: 1 1 auto;
+}
+
+.trust__column {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+
+.advantages {
+    height: 717px;
+}
+
+.advantages img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 717px;
+    z-index: -1;
+}
+
+.advantages__content {
+    padding-top: 144px;
+}
+
+.advantages__item h2 {
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.advantages__item img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.advantages__item p{
+    width: 219px;
+}
+
+.item_felx{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.advantages__column {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    flex: 0 0 20%;
+    flex-wrap: wrap;
+}
+
+
+.advantages__column p{
+    margin-top: 38px;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.advantages__content .advantages__column:last-child{
+    padding-right: 0px;   
+}
+.weWork {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weWork img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.oneWindow img{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.oneWindow__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.oneWindow__item img {
+    position: relative;
+    width: 59px;
+    height: 59px;
+}
+.weWork__item h2 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+    width: 964px;
+}
+
+.content_position_left {
+    float: left;
+}
+.content_position_right {
+    float: right;
+}
+.oneWindow__item p {
+    width: 584px;
+}
+
+
+
+/* </aboutUs.html>  */
