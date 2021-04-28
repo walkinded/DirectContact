@@ -39,13 +39,7 @@
     .trust__column img {
         position: relative;
         width: 196px;
-        /* height: 196px; */
-        /* flex: 1 1 auto; */
     }
-
-    /* .trust {
-        height: auto;
-    } */
     
 }
 
@@ -58,10 +52,6 @@
         padding-top: 130px;
         padding-left: 140px;
     }
-/* 
-    .trust {
-        height: auto;
-    } */
 }
 
 @media (max-width: 1366px) {
@@ -87,10 +77,6 @@
         font-size: 45px;
         width: auto;
     }
-
-    /* .trust {
-        height: auto;
-    } */
 
     .weWork {
         height: auto;
@@ -168,7 +154,6 @@
         position: relative;
         width: 136px;
         height: 136px;
-        /* flex: 1 1 auto; */
     }
 
     .block1-content h1 {
@@ -239,7 +224,7 @@
     }
 
     .box {
-        width: 741px; /*  */
+        width: 741px;
         height: 1183px;
     }
 
@@ -267,7 +252,41 @@
 
     #timeline .timeline-item .timeline-content p {
         font-size: 25px;
-        /* width: 100px; */
+    }
+
+    .ec-block1__item h1 {
+        font-size: 50px;
+    }
+    
+    .column_back_fone a {
+        font-size: 20px;
+        padding: 15px 20px; 
+    }
+    
+    .ec-block1__column p {
+        font-size: 20px;
+    }
+
+    .ec-block2__item {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .ec-block2__column {
+        margin-top: 70px;
+    }
+
+    .ec-block3__column {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ec-block3__column_box {
+        margin-right: 0;
+        margin-top: 30px;
     }
 }
 
@@ -343,7 +362,6 @@
 
     #timeline .timeline-item .timeline-content p {
         font-size: 20px;
-        /* width: 100px; */
     }
 
     .advantages__item h2 {
@@ -362,12 +380,34 @@
         height: auto;
         font-size: 30px;
     }
+
+    .ec-block3__item h2 {
+        font-size: 40px;
+    }
+    
+    .ec-block3__item h3 {
+        font-size: 25px;
+    }
+    
+    .ec-block3__iitem_format p {
+        font-size: 20px;
+    }
+    
+    .ec-block3__column_box h3 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .ec-block3__column_box h4 {
+        font-size: 20px;
+    }
+    
+    .column_box_text_flex {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 750px) {
-
-
-
     .block4-p {
         text-align: center;
     }
@@ -380,7 +420,7 @@
     }
    
     .box {
-        width: auto; /* 741px */
+        width: auto;
         height: 1183px;
     }
 
@@ -393,10 +433,6 @@
         width: 270px;
         height: 128px;
     }
-
-    /* .block4-size-p {
-        font-size: 40px;
-    } */
 
     .box-column-mob {
         flex-direction: column;
@@ -450,7 +486,6 @@
 
     .column_wrap {
         display: flex;
-        /* flex-direction: column; */
         flex-wrap: wrap;
        justify-content: center;
     }
@@ -459,23 +494,28 @@
         position: relative;
         max-width: 136px;
         max-height: 136px;
-        /* flex: 1 1 auto; */
+    }
+
+    .ec-block1__item h1 {
+        font-size: 30px;
+    }
+    
+    .column_back_fone a {
+        font-size: 14px;
+        padding: 15px 20px; 
+    }
+    
+    .ec-block1__column p {
+        font-size: 18px;
+    }
+
+    .ec-block2__item_center h2{
+        font-size: 50px;
     }
 
 }
-/* 
-@media (max-width: 700px) {
-    .block3__box {
-        padding-right: 0;
-    }
-} */
 
 @media (max-width: 450px) {
-
-    /* .box-container {
-        max-width: 300px;
-        margin: 0px 30px;
-    } */
 
     .aboutUs__column h1 {
         font-size: 40px;
@@ -528,7 +568,7 @@
     }
    
     .box {
-        width: 310px; /* 741px */
+        width: 310px;
         height: 1183px;
         margin-bottom: 30px;
     }
@@ -602,5 +642,40 @@
     .item_position_p p {
         height: auto;
         font-size: 20px;
+    }
+
+    .ec-block2__item_center h2{
+        font-size: 35px;
+    }
+
+    .ec-block2__column p {
+        font-size: 18px;
+    }
+
+    
+
+    .ec-block3__item h2 {
+        font-size: 30px;
+    }
+    
+    .ec-block3__item h3 {
+        font-size: 20px;
+    }
+    
+    .ec-block3__iitem_format p {
+        font-size: 16px;
+    }
+    
+    .ec-block3__column_box h3 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .ec-block3__column_box h4 {
+        font-size: 16px;
+    }
+    
+    .column_box_text_flex {
+        font-size: 16px;
     }
 }
