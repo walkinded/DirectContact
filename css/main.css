@@ -570,7 +570,10 @@ menu{
 /* <aboutUs.html> */
 
 .aboutUs {
-    height: 1031px;
+    background: url(../img/about-us-background-images.jpg) center top / cover;
+    width: 100%;
+    height: 10%;
+    /* height: 1031px; */
     color: white;
 }
 
@@ -590,6 +593,10 @@ menu{
 .aboutUs__item {
     margin-top: 17px;
     margin-bottom: 17px;
+}
+
+.item_padding {
+    padding-bottom: 145px;
 }
 
 .aboutUs__column {
@@ -716,15 +723,10 @@ menu{
 }
 
 .advantages {
-    height: 717px;
-}
-
-.advantages img {
-    object-fit: cover;
-    position: absolute;
+    background: url(../img/Rectangle3_1.jpg) center top / cover;
     width: 100%;
-    height: 717px;
-    z-index: -1;
+    height: 100%;
+    /* height: 717px; */
 }
 
 .advantages__content {
@@ -777,7 +779,7 @@ menu{
     padding-right: 0px;   
 }
 .weWork {
-    height: 100%;
+    height: 357px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -786,27 +788,18 @@ menu{
     object-fit: cover;
     position: absolute;
     width: 100%;
+    height: 357px;
     z-index: -1;
 }
 
-.oneWindow img{
-    object-fit: cover;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-}
-
-.oneWindow__item {
+.weWork__item {
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
-.oneWindow__item img {
-    position: relative;
-    width: 59px;
-    height: 59px;
-}
 .weWork__item h2 {
     font-weight: 900;
     font-size: 36px;
@@ -817,16 +810,118 @@ menu{
     width: 964px;
 }
 
-.content_position_left {
-    float: left;
+.oneWindow {
+    background: url(../img/PK_bg_2.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
 }
-.content_position_right {
+
+.oneWindow__item {
+    /* padding-top: 57px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.oneWindow__item h2 {
+    width: 1396px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    padding-top: 96px;
+}
+
+.item_p p {
+    margin-top: 30px;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+}
+
+.item_position_p p {
+    height: 225px;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+}
+
+/* timeline */
+
+#timeline *, 
+#timeline *:before, 
+#timeline *:after {
+    box-sizing: border-box;
+}    
+#timeline .timeline-item:after, 
+#timeline .timeline-item:before {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+#timeline {
+    max-width: 1100px;
+    width: 100%;
+    margin: 30px auto;
+    position: relative;
+    padding: 0 10px;
+    transition: all 0.4s ease;
+}
+#timeline:before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #EE778C;
+    left: 50%;
+    top: 0;
+    position: absolute;
+}
+/* #timeline:after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+} */
+
+#timeline .timeline-item {
+    margin-bottom: 50px;
+    position: relative;
+}
+#timeline .timeline-item .timeline-icon {
+    background: url(../img/Star1.png) center / cover;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    margin-left: -27px;
+}
+#timeline .timeline-item .timeline-icon i {
+    line-height: 50px;
+}
+#timeline .timeline-item .timeline-content {
+    width: 45%;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+#timeline .timeline-item .timeline-content p {
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+
+}
+
+#timeline .timeline-item:nth-child(even) .timeline-content {
     float: right;
 }
-.oneWindow__item p {
-    width: 584px;
-}
 
-
+/* timeline */
 
 /* </aboutUs.html>  */
