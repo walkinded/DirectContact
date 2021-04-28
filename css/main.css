@@ -725,8 +725,9 @@ menu{
 .advantages {
     background: url(../img/Rectangle3_1.jpg) center top / cover;
     width: 100%;
-    height: 100%;
-    /* height: 717px; */
+    /* height: 100%; */
+    height: 717px;
+    padding-bottom: 30px;
 }
 
 .advantages__content {
