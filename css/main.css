@@ -635,6 +635,8 @@ menu{
 }
 
 .aboutUs2 {
+    background: url(../img/Rectangle3.jpg) center top / cover;
+    width: 100%;
     height: 927px;
 }
 
@@ -680,15 +682,9 @@ menu{
 }
 
 .trust {
-    height: 684px;
-}
-
-.trust img {
-    object-fit: cover;
-    position: absolute;
+    background: url(../img/PK_bg_2.jpg) center top / cover;
     width: 100%;
-    height: 684px;
-    z-index: -1;
+    height: auto;
 }
 
 .trust__content {
@@ -712,7 +708,7 @@ menu{
 .trust__column img {
     position: relative;
     width: 196px;
-    height: 196px;
+    height: auto;
     flex: 1 1 auto;
 }
 
@@ -780,17 +776,12 @@ menu{
     padding-right: 0px;   
 }
 .weWork {
+    background: url(../img/Rectangle3_2.jpg) center top / cover;
+    width: 100%;
     height: 357px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.weWork img {
-    object-fit: cover;
-    position: absolute;
-    width: 100%;
-    height: 357px;
-    z-index: -1;
 }
 
 .weWork__item {
