@@ -950,15 +950,22 @@ menu{
     margin-bottom: 63px;
 }
 
-.column_back_fone a {
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 45px;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
+.column_back_fone {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     background: #EE778C;
     border-radius: 25px;
+}
+
+.column_back_fone a {
+    color: #FFFFFF;
     padding: 15px 20px; 
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: -0.015em;
 }
 
 .ec-block1__column p {
@@ -1216,3 +1223,53 @@ menu{
     padding: 30px 20px;
 }
 /* </ElectionCampaigns> */
+
+/* <Banks> */
+
+.banks-block1 {
+    background: url(../img/banks/back_block1.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+    color: #FFFFFF;
+}
+
+.banks-block1__content {
+    padding-top: 224px;
+}
+
+.banks-block1__item h1{
+    text-align: center;
+    font-size: 70px;
+    line-height: 67px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+
+    margin-bottom: 150px;
+}
+
+.banks-block1__column a {
+    font-size: 45px;
+    line-height: 105.2%;
+    letter-spacing: -0.015em;
+}
+
+
+.banks-block1__column p {
+    padding: 19px 0 54px 0;
+
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+}
+
+.banks-block1__item button {
+    margin: 125px 0 136px 0;
+}
+
+.column_button-position-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* </Banks> */

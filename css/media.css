@@ -420,6 +420,20 @@
         font-size: 25px;
     }
 
+
+
+    .banks-block1__item h1{
+        font-size: 40px;
+    }
+    
+    .banks-block1__column a {
+        font-size: 25px;
+    }
+    
+    .banks-block1__column p {
+        font-size: 25px;
+    }
+
 }
 
 @media (max-width: 750px) {
@@ -713,5 +727,17 @@
     
     .ec-block5__item p{
         font-size: 16px;
+    }
+
+    .banks-block1__item h1{
+        font-size: 30px;
+    }
+    
+    .banks-block1__column a {
+        font-size: 20px;
+    }
+    
+    .banks-block1__column p {
+        font-size: 20px;
     }
 }
