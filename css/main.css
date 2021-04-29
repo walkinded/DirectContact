@@ -1272,4 +1272,102 @@ menu{
     align-items: center;
     justify-content: center;
 }
+
+
+.banks-block2 {
+    background: url(../img/banks/back_block2.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+    color: #FFFFFF;
+}
+
+.banks-block2__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banks-block2__items p:last-child {
+    margin-top: 0;
+}
+
+.banks-block2__content {
+    padding: 153px 0 168px 0;
+}
+
+.banks-block2__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.banks-block2__column img {
+    margin-bottom: 47px;
+    width: auto;
+    height: 100px;
+}
+
+.banks-block2__column p {
+    width: 316px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+
+.banks-block2__column p:last-child {
+    font-weight: normal;
+}
+
+
+
+.banks-block3 {
+    background: url(../img/banks/back_block3.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+}
+.banks-block3__content {
+    padding: 138px 0 128px 0;
+}
+
+.banks-block3__column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banks-block3__column {
+    margin-bottom: 84px;
+}
+
+.banks-block3__column:last-child {
+    margin-bottom: 0;
+}
+
+.banks-block3__column img {
+    border-radius: 15px;
+}
+
+.column_info h2 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: -0.015em;
+}
+
+.column_info ul {
+    max-width: 691px;
+    width: auto;
+}
+
+.column_info li {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+}
+
+.column_img-size {
+    max-width: 830px;
+    height: 100%;
+}
+
 /* </Banks> */
