@@ -70,6 +70,10 @@
     .banks-block1__column p {
         font-size: 35px;
     }
+
+    .slider__box {
+        max-width: 1190px;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -486,6 +490,20 @@
         flex-direction: column;
     }
 
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        display: none;
+    }
+
+    .slider__box {
+        font-size: 20px;
+    }
+
+    .box_text h2 {
+        font-size: 35px;
+    }
+
 }
 
 @media (max-width: 750px) {
@@ -795,5 +813,36 @@
 
     .hr {
         width: 278px;
+    }
+    .slider__box {
+        height: auto;
+        font-size: 16px;
+    }
+
+    .box_text h2 {
+        font-size: 25px;
+        
+    }
+
+    .banks-block6 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .banks-block6__item h2 {
+        font-size: 30px;
+    }
+    
+    .banks-block6__column {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .banks-block6__column img {
+        padding: 0 0 10px 0;
+
     }
 }

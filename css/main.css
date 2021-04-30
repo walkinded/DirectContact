@@ -1370,4 +1370,189 @@ menu{
     height: 100%;
 }
 
+
+
+.banks-block4 {
+    background: url(../img/banks/back_block4.jpg) center top / cover;
+    width: 100%;
+    min-height: 2497px;
+    height: auto;
+
+    padding: 100px 0 100px 0;
+
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+
+    color: #535353;
+}
+
+.banks-block4__item {
+    margin-left: 539px;
+}
+
+.banks-block4__item:first-child {
+    margin-left: 0;
+}
+
+.banks-block4__item h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+
+    margin-bottom: 83px;
+}
+
+
+.banks-block4__item_block {
+    max-width: 1263px;
+    width: max-content;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    background: #E5E5E5;
+    border-radius: 15px;
+    padding: 27px 18px 27px 48px;
+
+    margin-bottom: 56px;
+}
+
+.banks-block4__item_block img {
+    /* display: flex; */
+    position: absolute;
+    margin-left: -88px;
+}
+
+
+
+
+.slider {
+    background: url(../img/ElectionCampaigns/back_block5.jpg) center top / cover;
+    width: 100%;
+    min-height: 576px;
+    height: auto;
+    padding: 149px 0 0 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    margin-bottom: 30px;
+}
+.swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    color: #737473;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #737473;
+}
+
+.slider__box {
+    max-width: 1356px;
+    width: auto;
+    height: auto;
+
+    background: #6F3A80;
+    border-radius: 15px;
+    color: white;
+    padding: 23px 20px;
+
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+
+.box_text h2 {
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    
+}
+
+.box_text p{
+    margin: 9px 0;
+}
+
+.box_text p:last-child {
+    font-weight: bold;
+}
+
+.box_text-indent {
+    margin-top: 42px;
+}
+
+.box_text-indent p{
+    /* text-align: justify; */
+    text-indent: 50px;
+}
+
+
+.banks-block6 {
+    background: url(../img/PK_bg_2.jpg) center top / cover;
+    width: 100%;
+    min-height: 576px;
+    height: auto;
+    padding: 96px 0 111px 0;
+
+    font-size: 25px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.banks-block6__item h2 {
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+
+    margin-bottom: 56px;
+}
+
+.banks-block6__column {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.banks-block6__column img {
+    padding-right: 30px;
+}
+
+.column_vertical p:first-child {
+    font-weight: bold;
+    color: #6F3A80;
+}
+
+.column_vertical p{
+    color: #EE778C;
+}
 /* </Banks> */
