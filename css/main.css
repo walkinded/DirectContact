@@ -1368,6 +1368,7 @@ menu{
 .column_img-size {
     max-width: 830px;
     height: 100%;
+    padding: 0 30px;
 }
 
 
@@ -1375,7 +1376,7 @@ menu{
 .banks-block4 {
     background: url(../img/banks/back_block4.jpg) center top / cover;
     width: 100%;
-    min-height: 2497px;
+    /* max-height: 2497px; */
     height: auto;
 
     padding: 100px 0 100px 0;
@@ -1407,10 +1408,17 @@ menu{
     margin-bottom: 83px;
 }
 
+.item_clmn {
+    display: inline-flex;
+}
+
+.item_clmn .banks-block4__item_block:last-child {
+    margin-left: 157px;
+}
+
 
 .banks-block4__item_block {
-    max-width: 1263px;
-    width: max-content;
+    width: auto;
     min-height: 45px;
     display: flex;
     align-items: center;
@@ -1421,10 +1429,29 @@ menu{
     margin-bottom: 56px;
 }
 
+.item_size-width {
+    max-width: 718px;
+    width: auto;
+}
+
+.item_size-width1 {
+    max-width: 978px;
+    width: auto;
+}
+
+.item_size-width2 {
+    max-width: 1263px;
+    width: auto;
+}
+
 .banks-block4__item_block img {
     /* display: flex; */
     position: absolute;
     margin-left: -88px;
+}
+
+.font_bolt {
+    font-weight: bold;
 }
 
 
@@ -1524,11 +1551,12 @@ menu{
     letter-spacing: -0.015em;
 
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     flex-direction: column;
 }
 
 .banks-block6__item h2 {
+    text-align: center;
     font-size: 45px;
     line-height: 43px;
     letter-spacing: -0.015em;
