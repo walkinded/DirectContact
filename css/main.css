@@ -171,6 +171,10 @@ header {
     color: #000000;
 }
 
+/* .block2 img {
+    width: auto;
+} */
+
 .block2-ul {
     display: flex;
     flex-direction: column;
@@ -256,7 +260,7 @@ header {
     margin-top: 100px;
 }
 
-.block3 svg {
+.block3 img {
     z-index: 3;
     position: absolute;
     /* padding-bottom: 1px; */
@@ -1036,6 +1040,7 @@ menu{
     letter-spacing: -0.015em;
     color: #737473;
 }
+
 
 
 
