@@ -30,6 +30,7 @@ footer {
 }
 header {
     position: fixed;
+    z-index: 4;
 }
 .flex {
     display: flex;
