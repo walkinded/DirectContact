@@ -100,10 +100,6 @@
         width: auto;
     }
 
-    .weWork {
-        height: auto;
-    }
-
     .advantages {
         height: auto;
     }
@@ -193,7 +189,7 @@
 
     .trust__column img {
         position: relative;
-        width: 136px;
+        max-width: 136px;
         height: 136px;
     }
 
@@ -346,6 +342,10 @@
     .banks-block4__item {
         margin-left: 20px;
     }
+
+    .marketing-block1 .column_back_fone a {
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -396,7 +396,7 @@
         width: auto;
     }
 
-    .column_size_color p {
+    .column_size_color ul {
         font-size: 30px;
     }
 }
@@ -532,6 +532,10 @@
     .column_img-size {
         padding: 0;
     }
+
+    .marketing-block1 .column_back_fone a {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -608,6 +612,10 @@
     }
 
     .trust__item h2 {
+        font-size: 35px;
+    }
+
+    .trust__item p {
         font-size: 35px;
     }
 
@@ -743,11 +751,15 @@
         width: auto;
     }
 
-    .column_size_color p {
+    .column_size_color ul {
         font-size: 20px;
     }
 
     .trust__item h2 {
+        font-size: 25px;
+    }
+
+    .trust__item p {
         font-size: 25px;
     }
 
@@ -881,5 +893,25 @@
 
     .banks-block4__item h2 {
         font-size: 35px;
+    }
+
+    .marketing-block1 .column_back_fone a {
+        font-size: 25px;
+    }
+
+    .marketing-block1 .os-block1__content {
+        padding-top: 110px;
+    }
+
+    .marketing-block1 .banks-block1__item button{
+        margin: 30px 0 30px 0;
+    }
+    .marketing-block1 .banks-block2__content {
+        padding: 30px 0 0 0;
+    }
+
+
+    .advantages__column {
+        padding-right: 0;
     }
 }

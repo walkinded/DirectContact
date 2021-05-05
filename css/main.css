@@ -680,7 +680,7 @@ menu{
     color: #6F3A80;
 }
 
-.column_size_color p {
+.column_size_color ul {
     font-size: 45px;
     line-height: 55px;
     letter-spacing: -0.015em;
@@ -711,6 +711,15 @@ menu{
     text-align: center;
 }
 
+.trust__item p {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    text-align: center;
+}
+
 .trust__column img {
     position: relative;
     width: 196px;
@@ -721,6 +730,7 @@ menu{
 .trust__column {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 15px 0 15px 0;
 }
 
@@ -766,6 +776,11 @@ menu{
     flex-direction: column;
     flex: 0 0 20%;
     flex-wrap: wrap;
+    padding-right: 30px;
+}
+
+.advantages__column:last-child {
+    padding-right: 0;
 }
 
 
@@ -839,6 +854,7 @@ menu{
 }
 
 .item_position_p p {
+    max-width: 1396px;
     height: 225px;
     font-size: 36px;
     line-height: 45px;
@@ -870,7 +886,7 @@ menu{
 #timeline:before {
     content: "";
     width: 3px;
-    height: 100%;
+    height: 94%;
     background: #EE778C;
     left: 50%;
     top: 0;
@@ -910,6 +926,7 @@ menu{
 }
 
 #timeline .timeline-item .timeline-content p {
+    max-width: 475px;
     font-size: 36px;
     line-height: 45px;
     letter-spacing: -0.015em;
@@ -1592,3 +1609,112 @@ menu{
     color: #EE778C;
 }
 /* </Banks> */
+
+/* <insurance> */
+
+.insurance-block1 {
+    background: url(../img/insurance/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+
+    color: white;
+}
+
+/* </insurance> */
+
+/* <online shops> */
+.os-block1 {
+    background: url(../img/online_shops/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+
+    color: white;
+}
+
+.os-block1__content {
+    padding-top: 224px;
+}
+
+.os-block1__item h1 {
+    font-size: 70px;
+    line-height: 67px;
+    letter-spacing: -0.015em;
+    text-align: center;
+}
+
+.os-block1__item h2 {
+    font-size: 70px;
+    line-height: 67px;
+    letter-spacing: -0.015em;
+    padding: 164px 0 0 0;
+}
+
+
+.os-block2 {
+    background: url(../img/banks/back_block2.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+}
+
+.os-block2__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.os-block2__content .btn-block1 {
+    margin: 66px 0 66px 0;
+}
+
+/* </online shops> */
+
+
+/* <telecommunication> */
+.telecom-block1 {
+    background: url(../img/telecom/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+
+    color: white;
+}
+
+.column_padding{
+    padding: 109px 0 163px 0;
+}
+
+.telecom-block4 {
+    background: url(../img/telecom/bg_block4.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+
+    padding: 100px 0 100px 0;
+    color: #535353;
+
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+/* </telecommunication> */
+
+
+/* <marketing> */
+.marketing-block1 {
+    background: url(../img/marketing/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+
+    color: white;
+
+    text-align: center;
+}
+
+.marketing-block1 .column_back_fone a {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 67px;
+    letter-spacing: -0.015em;
+}
+
+
+/* </marketing> */
