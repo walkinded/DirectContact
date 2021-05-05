@@ -240,6 +240,21 @@ header {
     /* padding-right: 20px; */
 }
 
+.block3__box span {
+    position:absolute;
+    z-index: 4;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 51px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+.star{
+    max-width: 110px;
+}
+
 .block3 p {
     z-index: 2;
     color: white;
@@ -1783,3 +1798,7 @@ menu{
     letter-spacing: -0.015em;
 }
 /* </industry> */
+
+/* <development> */
+
+/* </development> */
