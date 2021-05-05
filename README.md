@@ -20,3 +20,5 @@
 Онлайн магазины - https://walkinded.github.io/DirectContact/onlineShops.html
 
 Телекоммуникации - https://walkinded.github.io/DirectContact/telecommunication.html
+
+Промышленность и сельское хозяйство - https://walkinded.github.io/DirectContact/industry.html
