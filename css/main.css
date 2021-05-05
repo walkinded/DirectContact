@@ -1730,3 +1730,41 @@ menu{
 
 
 /* </marketing> */
+
+
+/* <industry> */
+.industry-block1 {
+    background: url(../img/industry/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+
+    color: white;
+    text-align: center;
+}
+
+.industry-block1 .banks-block2__content {
+    padding: 70px 0 130px 0;
+}
+
+.industry-block1__content {
+    padding-top: 221px;
+}
+
+.industry-block1__item h1 {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 67px;
+    letter-spacing: -0.015em;
+
+    padding-bottom: 45px;
+}
+
+.industry-block1__item p {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+
+    padding: 25px 0 25px 0;
+}
+/* </industry> */

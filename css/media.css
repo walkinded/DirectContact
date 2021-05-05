@@ -4,9 +4,9 @@
         max-width: 1680px;
     }
 
-    .block3 img {
+    /* .block3 img {
         height: 250px;
-    }
+    } */
 
     .block3__box {
         flex: 1 1 auto;
@@ -189,7 +189,7 @@
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
     /* .block3 img {
         height: 230px;
@@ -363,6 +363,16 @@
     .os-block1__item h1,
     .os-block1__item h2 {
         font-size: 50px;
+    }
+
+    .industry-block1__item h1 {
+        font-size: 50px;
+        padding-bottom: 45px;
+    }
+    
+    .industry-block1__item p {
+        font-size: 35px;
+        padding: 25px 0 25px 0;
     }
 }
 
@@ -564,6 +574,20 @@
     .os-block1__item h1,
     .os-block1__item h2 {
         font-size: 30px;
+    }
+
+    .industry-block1__item h1 {
+        font-size: 30px;
+        padding-bottom: 45px;
+    }
+    
+    .industry-block1__item p {
+        font-size: 20px;
+        padding: 25px 0 25px 0;
+    }
+
+    .industry-block1__content {
+        padding-top: 121px;
     }
 }
 
@@ -986,5 +1010,19 @@
 
     .banks-block2__column p {
         font-size: 16px;
+    }
+
+    .industry-block1__item h1 {
+        font-size: 25px;
+        padding-bottom: 45px;
+    }
+    
+    .industry-block1__item p {
+        font-size: 18px;
+        padding: 25px 0 0 0;
+    }
+
+    .industry-block1 .banks-block2__content {
+        padding: 70px 0 50px 0;
     }
 }
