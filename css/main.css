@@ -1767,4 +1767,19 @@ menu{
 
     padding: 25px 0 25px 0;
 }
+
+.industry-block4 {
+    background: url(../img/industry/bg_block4.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+
+    padding: 100px 0 200px 0;
+
+    color: #535353;
+
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
 /* </industry> */

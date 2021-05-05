@@ -4,10 +4,6 @@
         max-width: 1680px;
     }
 
-    /* .block3 img {
-        height: 250px;
-    } */
-
     .block3__box {
         flex: 1 1 auto;
         margin-top: 80px;
@@ -589,6 +585,11 @@
     .industry-block1__content {
         padding-top: 121px;
     }
+
+    .industry-block4 {
+        padding: 100px 0 200px 0;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -1024,5 +1025,10 @@
 
     .industry-block1 .banks-block2__content {
         padding: 70px 0 50px 0;
+    }
+
+    .industry-block4 {
+        padding: 100px 0 100px 0;
+        font-size: 16px;
     }
 }
