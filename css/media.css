@@ -172,6 +172,15 @@
     .banks-block4__item {
         margin-left: 339px;
     }
+
+    .os-block1 .banks-block2__items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .os-block1 .banks-block2__column {
+        padding-top: 20px;
+    }
 }
 
 
@@ -346,6 +355,11 @@
     .marketing-block1 .column_back_fone a {
         font-size: 50px;
     }
+
+    .os-block1__item h1,
+    .os-block1__item h2 {
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -489,7 +503,7 @@
 
 
     .column_info h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .column_info li {
@@ -534,6 +548,17 @@
     }
 
     .marketing-block1 .column_back_fone a {
+        font-size: 30px;
+    }
+
+    .telecom-block4 p,
+    .telecom-block4 ul {
+        font-size: 20px;
+    }
+
+
+    .os-block1__item h1,
+    .os-block1__item h2 {
         font-size: 30px;
     }
 }
@@ -913,5 +938,49 @@
 
     .advantages__column {
         padding-right: 0;
+    }
+
+
+    .insurance-block1 .banks-block1__content {
+        padding-top: 120px;
+    }
+
+    .insurance-block1 .banks-block1__item h1 {
+        margin-bottom: 30px;
+     }
+
+    .insurance-block1 .banks-block1__item button {
+        margin: 50px 0 50px 0;
+    }
+
+    .telecom-block1  .banks-block1__content {
+        padding-top: 120px;
+    }
+
+    .telecom-block1 h1 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .telecom-block4 p,
+    .telecom-block4 ul {
+        font-size: 16px;
+    }
+
+    .column_padding {
+        padding: 50px 0 0 0 ;
+    }
+
+    .os-block1__content {
+        padding-top: 110px;
+    }
+
+
+    .os-block1__item h2 {
+        padding-top: 50px;
+    }
+
+    .banks-block2__column p {
+        font-size: 16px;
     }
 }
