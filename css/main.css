@@ -1716,5 +1716,13 @@ menu{
     letter-spacing: -0.015em;
 }
 
+.marketing-block4 {
+    background: url(../img/marketing/bg_block3.jpg) center top / cover;
+    width: 100%;
+    height: auto;
+
+    padding: 100px 0 100px 0;
+}
+
 
 /* </marketing> */
