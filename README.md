@@ -3,12 +3,12 @@
 
 Доступы:
 
-https://walkinded.github.io/DirectContact/
-https://walkinded.github.io/DirectContact/landing.html
-https://walkinded.github.io/DirectContact/aboutUs.html
-https://walkinded.github.io/DirectContact/banks.html
-https://walkinded.github.io/DirectContact/ElectionCampaigns.html
-https://walkinded.github.io/DirectContact/insurance.html
-https://walkinded.github.io/DirectContact/marketing.html
-https://walkinded.github.io/DirectContact/onlineShops.html
-https://walkinded.github.io/DirectContact/telecommunication.html
+Главная - https://walkinded.github.io/DirectContact/
+Лендинг - https://walkinded.github.io/DirectContact/landing.html
+О нас- https://walkinded.github.io/DirectContact/aboutUs.html
+Банкам - https://walkinded.github.io/DirectContact/banks.html
+Избирательные комппании - https://walkinded.github.io/DirectContact/ElectionCampaigns.html
+Страхование - https://walkinded.github.io/DirectContact/insurance.html
+Маркетинг - https://walkinded.github.io/DirectContact/marketing.html
+Онлайн магазины - https://walkinded.github.io/DirectContact/onlineShops.html
+Телекоммуникации - https://walkinded.github.io/DirectContact/telecommunication.html
