@@ -130,9 +130,9 @@
         height: 210px;
     }
 
-    .block3 img {
+    /* .block3 img {
         height: 230px;
-    }
+    } */
 
     .logo img {
         width: 200px;
@@ -146,6 +146,12 @@
 
     .phone li{
         font-size: 14px;
+    }
+
+
+    .block2 img {
+        max-width: 830px;
+        width: 100%;
     }
 
     .block2-img {
@@ -187,9 +193,9 @@
 
 @media (max-width: 1000px) {
 
-    .block3 img {
+    /* .block3 img {
         height: 230px;
-    }
+    } */
 
     .aboutUs__content {
         padding-top: 130px;
