@@ -46,6 +46,7 @@
 @media (max-width: 1690px) {
     .box-container {
         max-width: 1366px;
+        margin: 0 auto;
     }
 
     .aboutUs__content {
@@ -146,10 +147,7 @@
 
     .phone li{
         font-size: 14px;
-    }
-
-
-    .block2 img {
+    }.block2 img {
         max-width: 830px;
         width: 100%;
     }

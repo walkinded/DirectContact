@@ -187,8 +187,12 @@ header {
     color: #000000;
 }
 
+.block2 img {
+    max-width: 830px;
+    width: 100%;
+}
+
 .block2-img {
-    width: 830px;
     height: 392px;
     border-radius: 15px;
     margin-right: 160px;
