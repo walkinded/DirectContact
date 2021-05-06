@@ -1,0 +1,118 @@
+/* timeline */
+
+#timeline1 *, 
+#timeline1 *:before, 
+#timeline1 *:after {
+    box-sizing: border-box;
+}    
+#timeline1 .timeline-item:after, 
+#timeline1 .timeline-item:before {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+#timeline1 {
+    max-width: 1436px;
+    width: 100%;
+    margin: 30px auto;
+    position: relative;
+    /* padding: 0 10px; */
+    transition: all 0.4s ease;
+}
+#timeline1:before {
+    content: "";
+    width: 3px;
+    height: 94%;
+    background: #EE778C;
+    left: 50%;
+    top: 0;
+    position: absolute;
+}
+/* #timeline:after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+} */
+
+#timeline1 .timeline-item {
+    margin-bottom: 50px;
+    position: relative;
+}
+#timeline1 .timeline-item .timeline-icon {
+    background: url(../img/Star1.svg) center / cover;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    width: 59px;
+    height: 66px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    margin-left: -28px;
+    margin-top: -30px;
+
+
+    /* span */
+    padding-top: 11px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+
+#timeline1 .timeline-item .timeline-icon i {
+    line-height: 50px;
+}
+#timeline1 .timeline-item .timeline-content {
+  padding: 40px 20px;
+  transition: all 0.3s ease;
+
+  max-width: 1436px;
+  min-height: 295px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-bottom: 139px;
+}
+
+#timeline1 .timeline-item .timeline-content p {
+  font-size: 36px;
+  line-height: 33px;
+  text-align: justify;
+  letter-spacing: -0.015em;
+}
+
+/* timeline */
+
+@media (max-width: 1024px) {
+  #timeline1 .timeline-item .timeline-content {
+    min-height: auto;
+  }
+
+  #timeline1 .timeline-item .timeline-content p {
+      font-size: 25px;
+      line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .development-block3 .oneWindow__item h2 {
+    font-size: 25px;
+    line-height: 43px;
+    margin-bottom: 53px;
+  }
+
+  #timeline1 .timeline-item .timeline-content p {
+    font-size: 16px;
+    line-height: 33px;
+  }
+
+  #timeline1 .timeline-item .timeline-content:last-child {
+    margin-bottom: 50px;
+}
+}
