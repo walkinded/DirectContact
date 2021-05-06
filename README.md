@@ -22,3 +22,5 @@
 Телекоммуникации - https://walkinded.github.io/DirectContact/telecommunication.html
 
 Промышленность и сельское хозяйство - https://walkinded.github.io/DirectContact/industry.html
+
+Разработка CRM - https://walkinded.github.io/DirectContact/development.html
