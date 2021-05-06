@@ -1038,6 +1038,7 @@ menu{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    min-width: 100%;
     margin-bottom: 120px;
 }
 
@@ -1060,6 +1061,7 @@ menu{
     align-items: center;
     text-align: center;
     flex-direction: column;
+    flex: 0.2 0 auto;
 }
 
 .ec-block2__column img{
@@ -1619,12 +1621,12 @@ menu{
     padding-right: 30px;
 }
 
-.column_vertical p:first-child {
+.column_vertical li:first-child {
     font-weight: bold;
     color: #6F3A80;
 }
 
-.column_vertical p{
+.column_vertical li{
     color: #EE778C;
 }
 /* </Banks> */
