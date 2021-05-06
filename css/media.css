@@ -417,13 +417,11 @@
 
     .development-block4__item-box {
         /* text */
-        font-weight: bold;
         font-size: 25px;
-        line-height: 33px;
-        letter-spacing: -0.015em;
-        color: #EE778C;
-        text-align: center;
-    
+    }
+
+    .box_bg {
+        font-size: 20px;
     }
 }
 
@@ -690,6 +688,18 @@
     }
 
     .development-block4__column div {
+        margin-bottom: 30px;
+    }
+
+    .service-block__item {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+
+    .service-block_box {
+        margin-right: 0;
         margin-bottom: 30px;
     }
 }

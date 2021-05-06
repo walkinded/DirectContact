@@ -2001,3 +2001,125 @@ menu{
     padding: 130px 0;
 }
 /* </development> */
+
+
+/* <service> */
+
+.service-block {
+
+    color: white;
+}
+
+.service-block__content {
+    padding-top: 120px;
+}
+
+.service-block__item {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.service-block_box {
+    width: 405px;
+    min-height: 520px;
+    width: auto;
+    border-radius: 15px;
+
+    background: #6F3A80;
+
+    margin-top: 60px;
+    margin-right: 20px;
+    position: relative
+}
+
+.service-block_box img {
+    max-width: 405px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.last_box .service-block_box:last-child {
+    /* padding: 0 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: none;
+}
+
+.last_box .service-block_box:last-child img{
+    max-width: 405px;
+    width: 100%;
+}
+
+.service-block_box .btn-block1 {
+    padding: 10px 10px;
+    max-width: 307px;
+    width: 100%;
+    height: 75px;
+    line-height: 25px;
+}
+
+.box_bg {
+    position: relative;
+    margin-top: -40px;
+    max-width: 405px;
+    min-height: 71px;
+    background: #EE778C;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+.box-ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+}
+
+.box-ul ul {
+    padding: 0 20px;
+    max-width: 286px;
+    width: auto;
+    margin-top: 19px;
+}
+
+.mini_btn {
+    position: absolute;
+    bottom: 0;
+    margin-top: 41px;
+    margin-bottom: 20px;
+    background: #EE778C;
+    border-radius: 37px;
+    max-width: 141px;
+    min-height: 30px;
+    border: 1px solid #EE778C;
+    
+    padding: 7px 26px;
+
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+
+    transition-duration: 0.3s;
+}
+
+.mini_btn:hover {
+    background: #6F3A80;
+    transition-duration: 0.4s;
+    border: 1px solid #EE778C;
+}
+
+/* </service> */
