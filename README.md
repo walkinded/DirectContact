@@ -24,3 +24,5 @@
 Промышленность и сельское хозяйство - https://walkinded.github.io/DirectContact/industry.html
 
 Разработка CRM - https://walkinded.github.io/DirectContact/development.html
+
+Услуги - https://walkinded.github.io/DirectContact/service.html
