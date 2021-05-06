@@ -2006,6 +2006,11 @@ menu{
 /* <service> */
 
 .service-block {
+    background: url(../img/PK_bg_2.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    padding: 158px 0 100px 0;
 
     color: white;
 }
@@ -2017,6 +2022,15 @@ menu{
 .service-block__item {
     display: inline-flex;
     justify-content: center;
+}
+
+.service-block__item-h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
 }
 
 .service-block_box {

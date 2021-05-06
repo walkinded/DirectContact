@@ -1194,4 +1194,13 @@
         padding: 50px 0;
     }
 
+
+    .service-block {
+        padding: 50px 0 100px 0;
+    }
+
+    .service-block__item-h2 {
+        font-size: 35px;
+    }
+
 }
