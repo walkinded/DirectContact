@@ -27,7 +27,7 @@
 
 Услуги - https://walkinded.github.io/DirectContact/service.html
 
-Телемаркетинг - https://walkinded.github.io/DirectContact/marketing.html
+Телемаркетинг - https://walkinded.github.io/DirectContact/telemarketing.html
 
 Горячая линия - https://walkinded.github.io/DirectContact/hotline.html
 
