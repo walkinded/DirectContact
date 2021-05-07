@@ -744,15 +744,13 @@ menu{
 
 .trust__column img {
     position: relative;
-    width: 196px;
-    height: auto;
-    flex: 1 1 auto;
+    width: 20%;
+    object-fit: cover;
 }
 
 .trust__column {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
     margin: 15px 0 15px 0;
 }
 
@@ -1408,6 +1406,7 @@ menu{
 }
 
 .column_info li {
+    list-style-type: none;
     font-weight: normal;
     font-size: 25px;
     line-height: 33px;
@@ -2363,5 +2362,21 @@ menu{
 
     color: #535353;
 }
+
+
+.telemarketing-block7 {
+    padding: 150px 0;
+}
+
+.telemarketing_font {
+    margin-top: 90px;
+
+    font-size: 36px;
+    line-height: 45px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+}
+
+
 
 /* </telemarketing> */

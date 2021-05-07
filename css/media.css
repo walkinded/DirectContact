@@ -32,10 +32,6 @@
         object-fit: cover;
     }
 
-    .trust__column img {
-        position: relative;
-        width: 196px;
-    }
 }
 
 @media (max-width: 1690px) {
@@ -219,12 +215,6 @@
     .aboutUs__content {
         padding-top: 130px;
         padding-left: 0;
-    }
-
-    .trust__column img {
-        position: relative;
-        max-width: 136px;
-        height: 136px;
     }
 
     .block1-content h1 {
@@ -780,6 +770,10 @@
         width: max-content;
         min-height: 64px; 
     }
+
+    .trust__column img {
+        width: 33%;
+    }
 }
 
 @media (max-width: 750px) {
@@ -861,18 +855,6 @@
 
     .trust__item p {
         font-size: 35px;
-    }
-
-    .column_wrap {
-        display: flex;
-        flex-wrap: wrap;
-       justify-content: center;
-    }
-
-    .trust__column img {
-        position: relative;
-        max-width: 136px;
-        max-height: 136px;
     }
 
     .ec-block1__item h1 {
@@ -1328,5 +1310,9 @@
 
     .forma_min {
         max-width: 300px;
+    }
+
+    .trust__column img {
+        width: 100%;
     }
 }
