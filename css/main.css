@@ -26,6 +26,10 @@ footer {
     position: absolute;
 }
 
+li {
+    list-style-position: inside;
+}
+
 header li,
 footer li {
     list-style-type: none;
@@ -184,6 +188,7 @@ header {
 }
 
 .block2-ul li {
+    list-style-type: none;
     font-size: 25px;
     line-height: 33px;
     letter-spacing: -0.015em;
@@ -1438,8 +1443,13 @@ menu{
     color: #535353;
 }
 
-.banks-block4__item {
+
+ .banks-block4__item {
     margin-left: 539px;
+}
+
+.banks-block4__item_block li {
+    list-style-type: none;
 }
 
 .banks-block4__item:first-child {
@@ -1629,6 +1639,7 @@ menu{
 }
 
 .column_vertical li{
+    list-style-type: none;
     color: #EE778C;
 }
 /* </Banks> */
@@ -1652,6 +1663,11 @@ menu{
     height: auto;
 
     color: white;
+}
+
+.os-block1 .banks-block2__column p{
+    max-width: 417px;
+    margin-right: 20px;
 }
 
 .os-block1__content {
@@ -1718,6 +1734,9 @@ menu{
     line-height: 24px;
     letter-spacing: -0.015em;
 }
+.li_style_on li {
+    list-style-type: disc;
+}
 /* </telecommunication> */
 
 
@@ -1745,6 +1764,16 @@ menu{
     height: auto;
 
     padding: 100px 0 100px 0;
+}
+
+.marketing-block4 p,
+.marketing-block4 li  {
+    font-size: 25px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+
+    color: #535353;
 }
 
 
@@ -1931,6 +1960,10 @@ menu{
     margin-bottom: 50px;
 }
 
+.development-block4__column li {
+    list-style-type: none;
+}
+
 .development-block4__column p {
     text-align: center;
 
@@ -2018,9 +2051,9 @@ menu{
     color: white;
 }
 
-.service-block__content {
-    padding-top: 120px;
-}
+/* .service-block__content {
+    padding-top: 110px;
+} */
 
 .service-block__item {
     display: inline-flex;
@@ -2038,7 +2071,7 @@ menu{
 
 .service-block_box {
     width: 405px;
-    height: auto;
+    min-height: 520px;
     width: auto;
     border-radius: 15px;
 
@@ -2049,8 +2082,10 @@ menu{
 }
 
 .service-block_box img {
+    object-fit: cover;
     max-width: 405px;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
     width: 100%;
     border-radius: 15px;
 }
@@ -2104,6 +2139,7 @@ menu{
     font-size: 15px;
     line-height: 20px;
     letter-spacing: -0.015em;
+    /* padding: 0 10px; */
 }
 
 .box-ul ul {
@@ -2168,6 +2204,10 @@ menu{
     font-size: 25px;
     line-height: 45px;
     letter-spacing: -0.015em;
+}
+
+.first_block__item li {
+    list-style-type: none;
 }
 
 .first_block__item li:first-child {
@@ -2428,7 +2468,8 @@ menu{
     margin-bottom: 32px;
 }
 
-.telemarketing-block9__items p {
+.telemarketing-block9__items p,
+.telemarketing-block9__items li {
     font-size: 36px;
     line-height: 45px;
     /* or 125% */
@@ -2439,4 +2480,169 @@ menu{
 
     padding-bottom: 10px;
 }
+
+.telemarketing-block9__items li {
+    list-style-position:inside;
+}
+
+.telemarketing-block9__items img {
+    width: 35%;
+    margin-right: 20px;
+}
+
+
+.telemarketing-block10{
+    width: 100%;
+}
+
+.telemarketing-block10__content h2 {
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+    font-weight: bold;
+
+    margin-bottom: 55px;
+}
+
+.telemarketing-block10__items {
+    background: url(../img/telemarketing/bg_block8.jpg) center top / cover;
+    width: 100%;
+    min-height: 324px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: white;
+}
+
+.telemarketing-block10__items .banks-block2__column {
+    display: flex;
+    align-items: center;
+}
+
+.telemarketing-block10__items .banks-block2__column p {
+    font-weight: bold;
+}
+
 /* </telemarketing> */
+
+/*  */
+.hotline_block {
+    background: url(../img/hotline/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.hotline__item h1 {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 79px;
+    letter-spacing: -0.015em;
+
+    margin-bottom: 82px;
+}
+
+.hotline__item p {
+    max-width: 1081px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+
+    margin-bottom: 82px;
+}
+
+.color-rose {
+    color: #EE778C;
+}
+
+.hotline-block2 {
+    color: #535353;
+}
+
+.hotline-block2__content {
+    padding: 115px 0;
+}
+
+.hotline-block2__column {
+    display: flex;
+    align-items: center;
+}
+
+.hotline-block2__column img {
+    width: 40%;
+    margin-right: 162px;
+}
+
+.hotline-block2__column p {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+
+    color: #535353;
+}
+
+.hotline-block2__column p:first-child {
+    margin-bottom: 81px;
+}
+/*  */
+
+
+
+/*  */
+.mr_block {
+    background: url(../img/marketingResearch/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+
+.mr_block .hotline__item p {
+    max-width: 688px;
+    margin-bottom: 0;
+}
+
+
+.mr-block2 {
+    padding-top: 100px;
+    text-indent: 0;
+}
+
+.mr-block2 .telemarketing-block9__items p:first-child {
+    text-align: center;
+}
+
+
+.mr-block3 {
+    text-indent: 0;
+}
+
+.mr-block3 .telemarketing-block9__items p:first-child {
+    text-align: left;
+}
+
+.mr-block3 .telemarketing-block9__items:last-child {
+    padding-bottom: 50px;
+}
+/*  */
+
+
+
+.wpcf7 .ajax-loader {
+    display: block !important;
+    margin: 1px auto !important;
+}
+
+.form-submit-wr {
+    text-align: center;
+}
+.form-submit-wr input {
+    cursor: pointer;
+}
