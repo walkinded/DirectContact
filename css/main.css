@@ -1580,8 +1580,7 @@ menu{
 }
 
 .box_text-indent p{
-    /* text-align: justify; */
-    text-indent: 50px;
+   margin-bottom: 20px;
 }
 
 
@@ -1863,6 +1862,7 @@ menu{
 .development-block2__column {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* flex: 1 1 auto; */
 }
 
@@ -2137,3 +2137,230 @@ menu{
 }
 
 /* </service> */
+
+
+/* <telemarketing> */
+
+.first_block {
+    background: url(../img/telemarketing/bg_first_block.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.first_block__content {
+    padding: 267px 0 220px 0;
+}
+
+
+.first_block__item h1 {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 79px;
+    letter-spacing: -0.015em;
+
+    margin-bottom: 83px;
+}
+
+.first_block__item ul {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+}
+
+.first_block__item li:first-child {
+    color: #EE778C;
+}
+
+.first_block__item button {
+    margin-top: 83px;
+}
+
+
+.telemarketing-block2 {
+    padding: 118px 0 41px 0;
+}
+
+.telemarketing-block2 .development-block2__column {
+    margin-bottom: 43px;
+}
+
+
+.telemarketing-block3 {
+    background: url(../img/telemarketing/bg_block3.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    color: #535353;
+}
+
+.telemarketing-block3__content {
+    padding: 51px 0 65px 0;
+}
+
+.telemarketing-block3__item h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    /* or 125% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #6F3A80;
+}
+
+.telemarketing-block3__column {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 42px;
+}
+
+.column_block {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.column_block p{
+    max-width: 546px;
+    margin-left: 23px;
+
+    font-size: 25px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+}
+
+
+.telemarketing-block4 {
+    color: #535353;
+}
+
+.telemarketing-block4__content {
+    padding: 97px 0 162px 0;
+}
+
+.telemarketing-block4__item {
+
+}
+
+.telemarketing-block4__item h2 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    text-align: center;
+    margin-bottom: 32px;
+    
+    color: #6F3A80;
+}
+
+.telemarketing-block4__column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.telemarketing-block4__column p {
+    max-width: 972px;
+
+    font-size: 36px;
+    line-height: 45px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+}
+
+.forma_min {
+    max-width: 586px;
+    min-height: 405px;
+    
+    background: #FFFFFF;
+    border: 3px solid #6F3A80;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forma_min button {
+    margin-top: 68px;
+    margin-bottom: 20px;
+}
+
+/* forma box min */
+.input_min {
+    width: 547px;
+    min-height: 64px;
+
+    border: 3px solid #6F3A80;
+    box-sizing: border-box;
+    border-radius: 15px;   
+}
+
+.input-box_min {
+    margin-top: 30px;
+    padding: 0 21px;
+}
+
+.input-box_min:first-child {
+    margin-top: 10px;
+}
+
+.input-box_min p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+    margin-bottom: 5px;
+}
+
+.input-box_min input[type=text],
+.input-box_min input[type=tel] {
+    padding: 12px 20px;
+    color: #535353;
+    font-size: 20px;
+    font-family: 'Gotham Pro';
+}
+/* // */
+
+
+.telemarketing-block5 {
+    background: url(../img/telemarketing/bg_block5.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    padding: 70px 0 130px 0;
+
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+
+    color: #535353;
+}
+
+.telemarketing-block6 {
+    background: url(../img/telemarketing/bg_block6.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    padding: 70px 0 130px 0;
+
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+
+    color: #535353;
+}
+
+/* </telemarketing> */
