@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-li {
-    list-style-type: none;
-}
 
 li a {
     text-decoration: none;
@@ -27,6 +24,11 @@ footer {
     height: 100px;
     background: rgba(255, 255, 255, 0.75);
     position: absolute;
+}
+
+header li,
+footer li {
+    list-style-type: none;
 }
 header {
     position: fixed;
@@ -82,6 +84,7 @@ header {
 }
 
 .nav li {
+    list-style-type: none;
     margin-right: 13px;
     transition-duration: 0.3s;
 }
@@ -2035,7 +2038,7 @@ menu{
 
 .service-block_box {
     width: 405px;
-    min-height: 520px;
+    height: auto;
     width: auto;
     border-radius: 15px;
 
@@ -2043,11 +2046,11 @@ menu{
 
     margin-top: 60px;
     margin-right: 20px;
-    position: relative
 }
 
 .service-block_box img {
     max-width: 405px;
+    height: 200px;
     width: 100%;
     border-radius: 15px;
 }
@@ -2111,8 +2114,6 @@ menu{
 }
 
 .mini_btn {
-    position: absolute;
-    bottom: 0;
     margin-top: 41px;
     margin-bottom: 20px;
     background: #EE778C;
