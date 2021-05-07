@@ -26,3 +26,9 @@
 Разработка CRM - https://walkinded.github.io/DirectContact/development.html
 
 Услуги - https://walkinded.github.io/DirectContact/service.html
+
+Телемаркетинг - https://walkinded.github.io/DirectContact/marketing.html
+
+Горячая линия - https://walkinded.github.io/DirectContact/hotline.html
+
+Маркетинговые исследования - https://walkinded.github.io/DirectContact/marketingResearch.html
