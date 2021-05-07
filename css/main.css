@@ -411,7 +411,7 @@ header {
 
 .box {
     width: 941px;
-    height: 1183px;
+    /* height: 1183px; */
     border: 3px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 15px;
@@ -430,6 +430,7 @@ header {
     height: 75px;
     border: 0;
     transition-duration: 0.3s;
+    margin-bottom: 30px;
 }
 
 .btn-block5:hover {
@@ -2378,5 +2379,64 @@ menu{
 }
 
 
+.telemarketing-block8 {
+    background: url(../img/telemarketing/bg_block8.jpg) center top / cover;
+    width: 100%;
+    min-height: 324px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.telemarketing-block8 .banks-block2__column p {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+
+.telemarketing-block8__content {
+    width: 80%;
+}
+
+.telemarketing-block8__items {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.telemarketing-block9 {
+    padding-top: 154px;
+}
+
+.telemarketing-block9__items {
+    padding-bottom: 154px;
+}
+
+.telemarketing-block9__items h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #6F3A80;
+
+    margin-bottom: 32px;
+}
+
+.telemarketing-block9__items p {
+    font-size: 36px;
+    line-height: 45px;
+    /* or 125% */
+
+    text-align: justify;
+    letter-spacing: -0.015em;
+    text-indent: 50px;
+
+    padding-bottom: 10px;
+}
 /* </telemarketing> */
