@@ -1349,6 +1349,7 @@ menu{
 
 .banks-block2__column {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -2634,6 +2635,381 @@ menu{
 /*  */
 
 
+/* <callCenterServices> */
+
+.first_block_callCenterServices {
+    background: url(../img/callCenterServices/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.first_block_callCenterServices .first_block__item p {
+    max-width: 684px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+
+.callCenterServices_block2 {
+    background: url(../img/PK_bg_2.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.callCenterServices_block2__content {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-top: 66px;
+}
+
+.callCenterServices_block2__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.callCenterServices_block2__colunm {
+    display: flex;
+    align-items: center;
+}
+
+.callCenterServices_block2__item1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.callCenterServices_block2__item1 h2 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+
+    margin-bottom: 28px;
+}
+
+.item_logo {
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+}
+
+.item_logo img {
+    width: 100%;
+    margin-right: 38px;
+}
+
+.column_box {
+    margin-right: 25px;
+}
+
+.column_box:last-child {
+    margin-right: 0;
+}
+
+.colunm_padding {
+    max-width: 827px;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+
+    padding: 18px 0;
+}
+
+.colunm_padding p:first-child {
+    margin-bottom: 5px;
+}
+
+.tm__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tm__column h3 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+
+    margin-bottom: 16px;
+} 
+
+
+.callCenterServices_block3 {
+    padding: 50px 0;
+}
+
+.callCenterServices_block3__content {}
+
+.callCenterServices_block3__item {
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: -0.015em;
+
+}
+
+.callCenterServices_block3__item li {
+    padding-bottom: 10px;
+}
+
+.callCenterServices_block3__item .color-fiolet-bold {
+    padding-bottom: 14px;
+}
+
+
+.callCenterServices_block4 {
+    background: url(../img/callCenterServices/bg_block4.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+}
+.callCenterServices_block4__content {
+    padding: 100px 0;
+}
+
+.callCenterServices_block4__item {
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: -0.015em;
+}
+
+.callCenterServices_block4__item h2 {
+    text-align: center;
+    font-size: 45px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+
+    margin-bottom: 40px;
+}
+
+/* </callCenterServices> */
+
+
+/* <career> */
+.first_block_career {
+    background: url(../img/career/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+
+.career_block2 {
+    background: url(../img/PK_bg_2.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+}
+
+.career_block2__content {
+    padding-top: 100px;
+}
+
+.career_block2__item {
+    padding-bottom: 60px;
+}
+
+.career_block2__item p {
+    font-size: 36px;
+    line-height: 45px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+}
+
+.career_block2 .banks-block2__items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.career_block2 .banks-block2__column p {
+    font-weight: bold;
+}
+
+.career_block2 .banks-block2__column img {
+    max-width: 186px;
+    height: auto;
+}
+/* </career> */
+
+
+/* <RemoteSalesDepartment> */
+.first_block_rsd {
+    background: url(../img/RemoteSalesDepartment/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+
+.first_block_rsd .first_block__item p {
+    font-size: 25px;
+    line-height: 45px;
+    /* or 180% */
+
+    letter-spacing: -0.015em;
+
+    margin-bottom: 60px;
+}
+
+
+
+.rsd-block6 {
+    background: url(../img/PK_bg_2.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+}
+
+.rsd-block6 .banks-block6__column{
+   padding-left: 5%;
+}
+
+.rsd-block6 .banks-block6__content {
+    padding: 60px 0;
+}
+
+.rsd-block6 .column_vertical li{
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.015em;
+    color: #535353;
+}
+
+.rsd-block6 .column_vertical li:first-child {
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: -0.015em;
+}
+
+/* </RemoteSalesDepartment> */
+
+
+/* <ComprehensiveIndustrySolutions> */
+.first_block_cis{
+    background: url(../img/CIS/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+
+.first_block_cis .first_block__item p {
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+    margin-bottom: 30px;
+}
+
+.cis_block2__content {
+    padding: 55px 0;
+}
+
+.cis_block2__item { 
+    font-size: 36px;
+    line-height: 45px;
+}
+/* </ComprehensiveIndustrySolutions> */
+
+
+/* <AutomaticMaintenance> */
+
+.first_block_am {
+    background: url(../img/AM/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+
+.first_block_am  .first_block__item h1 {
+    margin-bottom: 30px;
+}
+
+.first_block_am  .first_block__item p {
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    margin-bottom: 60px;
+}
+/* </AutomaticMaintenance> */
+
+
+/*  */
+
+.am-block2__content {
+    padding-top: 105px;
+}
+.am-block2__item  {
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+
+    margin-bottom: 100px;
+}
+.am-block2__item h2 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #6F3A80;
+
+    margin-bottom: 47px;
+}
+
+.am-block2__column {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.am-block2__column p,
+.am-block2__column ul {
+    max-width: 959px;
+}
+
+.am-block2__column img {
+    width: 35%;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+.center p {
+    max-width: 688px;
+    text-align: center;
+}
+
+.text-indent50px{
+    text-indent: 50px;
+}
+
+/*  */
+
+
+/*  */
+.first_block_helpDesk {
+    background: url(../img/helpDesk/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+/*  */
 
 .wpcf7 .ajax-loader {
     display: block !important;
