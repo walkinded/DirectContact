@@ -32,3 +32,15 @@
 Горячая линия - https://walkinded.github.io/DirectContact/hotline.html
 
 Маркетинговые исследования - https://walkinded.github.io/DirectContact/marketingResearch.html
+
+Услуги колл-центра - https://walkinded.github.io/DirectContact/callCenterServices.html
+
+Карьера - https://walkinded.github.io/DirectContact/career.html
+
+Дистанционный Одел Продаж - https://walkinded.github.io/DirectContact/RemoteSalesDepartment.html
+
+Комплексные отраслевые решения - https://walkinded.github.io/DirectContact/ComprehensiveIndustrySolutions.html
+
+Автоматическое обслуживание - https://walkinded.github.io/DirectContact/AutomaticMaintenance.html
+
+Информационно-справочный центр - https://walkinded.github.io/DirectContact/HelpDesk.html
