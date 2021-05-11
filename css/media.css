@@ -966,6 +966,14 @@
         margin-right: 0;
         margin-bottom: 30px;
     }
+
+    .item_padding .block3-imgs {
+        padding-bottom: 50px;
+    }
+
+    .item_padding .p-b-106 {
+        padding-bottom: 0;
+    }
 }
 
 @media (max-width: 750px) {

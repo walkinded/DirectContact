@@ -3000,7 +3000,6 @@ menu{
 
 /*  */
 
-
 /*  */
 .first_block_helpDesk {
     background: url(../img/helpDesk/bg_block1.jpg) center top / cover;
@@ -3010,6 +3009,23 @@ menu{
     color: white;
 }
 /*  */
+
+/* <ContactCenterOutsourcing> */
+.first_block_cco {
+    background: url(../img/CCO/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+/* </ContactCenterOutsourcing> */
+
+
+.item_padding {
+    padding-top: 120px;
+    padding-bottom: 0;
+}
+
 
 .wpcf7 .ajax-loader {
     display: block !important;
