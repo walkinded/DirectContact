@@ -3,48 +3,54 @@
 
 Доступы:
 
-Главная - https://walkinded.github.io/DirectContact/
+1. Главная - https://walkinded.github.io/DirectContact/
 
-Лендинг - https://walkinded.github.io/DirectContact/landing.html
+2. Лендинг - https://walkinded.github.io/DirectContact/landing.html
 
-О нас- https://walkinded.github.io/DirectContact/aboutUs.html
+3. О нас- https://walkinded.github.io/DirectContact/aboutUs.html
 
-Банкам - https://walkinded.github.io/DirectContact/banks.html
+4. Банкам - https://walkinded.github.io/DirectContact/banks.html
 
-Избирательные комппании - https://walkinded.github.io/DirectContact/ElectionCampaigns.html
+5. Избирательные комппании - https://walkinded.github.io/DirectContact/ElectionCampaigns.html
 
-Страхование - https://walkinded.github.io/DirectContact/insurance.html
+6. Страхование - https://walkinded.github.io/DirectContact/insurance.html
 
-Маркетинг - https://walkinded.github.io/DirectContact/marketing.html
+7. Маркетинг - https://walkinded.github.io/DirectContact/marketing.html
 
-Онлайн магазины - https://walkinded.github.io/DirectContact/onlineShops.html
+8. Онлайн магазины - https://walkinded.github.io/DirectContact/onlineShops.html
 
-Телекоммуникации - https://walkinded.github.io/DirectContact/telecommunication.html
+9. Телекоммуникации - https://walkinded.github.io/DirectContact/telecommunication.html
 
-Промышленность и сельское хозяйство - https://walkinded.github.io/DirectContact/industry.html
+10. Промышленность и сельское хозяйство - https://walkinded.github.io/DirectContact/industry.html
 
-Разработка CRM - https://walkinded.github.io/DirectContact/development.html
+11. Разработка CRM - https://walkinded.github.io/DirectContact/development.html
 
-Услуги - https://walkinded.github.io/DirectContact/service.html
+12. Услуги - https://walkinded.github.io/DirectContact/service.html
 
-Телемаркетинг - https://walkinded.github.io/DirectContact/telemarketing.html
+13. Телемаркетинг - https://walkinded.github.io/DirectContact/telemarketing.html
 
-Горячая линия - https://walkinded.github.io/DirectContact/hotline.html
+14. Горячая линия - https://walkinded.github.io/DirectContact/hotline.html
 
-Маркетинговые исследования - https://walkinded.github.io/DirectContact/marketingResearch.html
+15. Маркетинговые исследования - https://walkinded.github.io/DirectContact/marketingResearch.html
 
-Услуги колл-центра - https://walkinded.github.io/DirectContact/callCenterServices.html
+16. Услуги колл-центра - https://walkinded.github.io/DirectContact/callCenterServices.html
 
-Карьера - https://walkinded.github.io/DirectContact/career.html
+17. Карьера - https://walkinded.github.io/DirectContact/career.html
 
-Дистанционный Одел Продаж - https://walkinded.github.io/DirectContact/RemoteSalesDepartment.html
+18. Дистанционный Одел Продаж - https://walkinded.github.io/DirectContact/RemoteSalesDepartment.html
 
-Комплексные отраслевые решения - https://walkinded.github.io/DirectContact/ComprehensiveIndustrySolutions.html
+19. Комплексные отраслевые решения - https://walkinded.github.io/DirectContact/ComprehensiveIndustrySolutions.html
 
-Автоматическое обслуживание - https://walkinded.github.io/DirectContact/AutomaticMaintenance.html
+20. Автоматическое обслуживание - https://walkinded.github.io/DirectContact/AutomaticMaintenance.html
 
-Информационно-справочный центр - https://walkinded.github.io/DirectContact/HelpDesk.html
+21. Информационно-справочный центр - https://walkinded.github.io/DirectContact/HelpDesk.html
 
-Почему мы? - https://walkinded.github.io/DirectContact/whyUs.html
+22. Почему мы? - https://walkinded.github.io/DirectContact/whyUs.html
 
-Отраслевое решение - https://walkinded.github.io/DirectContact/industrySolution.html
+23. Отраслевое решение - https://walkinded.github.io/DirectContact/industrySolution.html
+
+24. Актуализация базы данных - https://walkinded.github.io/DirectContact/UpdatingTheDatabase.html
+
+25. Аутсорсинг контактного центра - https://walkinded.github.io/DirectContact/ContactCenterOutsourcing.html
+
+26. Телефонные опросы - https://walkinded.github.io/DirectContact/TelephoneSurveys.html
