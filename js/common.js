@@ -8,6 +8,21 @@ $(document).ready(function() {
       }
     });
   });
+  $(document).click(function(event) {
+    if ($(event.target).closest(".menuToggle, .menu").length) return;   //при клике на эти блоки не скрывать
+    $('.menu').hide();  //скрываем .menu при клике вне .menu
+    event.stopPropagation();
+    if ($(".menuToggle").toggleClass("active", true)) {
+      $(".menuToggle").toggleClass("active");
+    }
+  });
+  $(document).keyup(function(e) {
+    if (e.key === "Escape" && $(".menuToggle").toggleClass("active", true)) {
+      $('.menu').hide();
+      e.stopPropagation();
+      $(".menuToggle").toggleClass("active");
+    }
+  });
 
 
   // initialization Swiper
@@ -30,6 +45,8 @@ $(document).ready(function() {
       clickable: true,
     },
   });
+  
 
 });
+
 
