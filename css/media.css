@@ -621,6 +621,55 @@
     .cco_block5__item {
         margin-bottom: 50px;
     }
+
+
+
+
+    .atd_block3__item h2 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 34px;
+        letter-spacing: -0.015em;
+        
+        color: #FFFFFF;
+        text-align: center;
+    
+        margin-bottom: 77px;
+    }
+    
+    .atd_block3__column p {
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: -0.015em;
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+    
+    .atd_block4__item p {
+        font-size: 25px;
+        line-height: 45px;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #000000;
+    }
+
+
+    .atd_block2__column {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .column_content-center {
+        margin-bottom: 50px;
+    }
+    
+    .atd_block2__column img {
+        max-width: 405px;
+        width: 90%;
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -763,6 +812,7 @@
         margin-bottom: 46px;
     }
     
+    .ec-block4__column li,
     .ec-block4__column p {
         font-size: 25px;
     }
@@ -1146,6 +1196,72 @@
     .banks-block3__column img {
         margin-top: 20px;
     }
+
+    .atd_block2__item {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+
+    .atd_block3__item h2 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 34px;
+        letter-spacing: -0.015em;
+        
+        color: #FFFFFF;
+        text-align: center;
+    
+        margin-bottom: 77px;
+    }
+    
+    .atd_block3__column p {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 34px;
+        letter-spacing: -0.015em;
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+    
+    .atd_block4__item p {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #000000;
+    }
+
+    .atd_block2__column p {
+        max-width: 322px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.015em;
+    }
+    
+    .atd_block2__item h2 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #6F3A80;
+        margin-bottom: 84px;
+    }
+
+    .first_block_atd .first_block__item p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .atd_block3__content {
+        padding: 50px 0;
+    }
+
+    .atd_block4__content {
+        padding: 30px 0;
+    }
 }
 
 @media (max-width: 750px) {
@@ -1424,6 +1540,7 @@
         font-size: 12px;
     }
 
+    .ec-block4__column li,
     .ec-block4__column p {
         font-size: 20px;
     }
@@ -1990,5 +2107,60 @@
         text-align: justify;
         letter-spacing: -0.015em;
         color: #FFFFFF;
+    }
+
+
+
+    .atd_block3__item h2 {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: -0.015em;
+        
+        color: #FFFFFF;
+        text-align: center;
+    
+        margin-bottom: 77px;
+    }
+    
+    .atd_block3__column p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.015em;
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+    
+    .atd_block4__item p {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #000000;
+    }
+
+    .atd_block2__column p {
+        max-width: 322px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.015em;
+    }
+    
+    .atd_block2__item h2 {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #6F3A80;
+        margin-bottom: 54px;
+    }
+
+
+    .first_block_atd .first_block__item p {
+        font-size: 16px;
+        line-height: 25px;
     }
 }

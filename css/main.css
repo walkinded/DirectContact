@@ -1180,17 +1180,15 @@ menu{
     color: #FFFFFF;
 }
 
-.column_box_text_flex img {
-    margin-right: 8px;
-}
-
 .box_star {
     position: relative;
+    margin-right: 15px;
 }
 .box_star span {
     position: absolute;
     top: 10px;
-    transform: translateX(18px);
+    left: 50%;
+    transform: translateX(-50%);
 
     font-size: 36px;
     line-height: 45px;
@@ -1229,6 +1227,7 @@ menu{
     padding-bottom: 129px;
 }
 
+.ec-block4__column li,
 .ec-block4__column p {
     font-family: 'Gotham Pro';
     font-size: 36px;
@@ -3239,14 +3238,146 @@ menu{
 .ts-block3 {
     background: url(../img/PK_bg_2.jpg) center top / cover;
     width: 100%;
-    height: 100%;;
+    height: 100%;
 }
 
 /* </TelephoneSurveys> */
 
 
 /* <UpdatingTheDatabase> */
+.first_block_atd{
+    background: url(../img/ATD/bg_block1.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
 
+    color: white;
+}
+
+.first_block_atd .first_block__item p {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+}
+
+.atd_block2 {
+    background: url(../img/PK_bg_2.jpg) center top / cover;
+    width: 100%;
+    height: 100%;
+}
+
+.atd_block2__content {
+    padding: 50px;
+}
+
+.atd_block2__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atd_block2__item h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    /* or 125% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #6F3A80;
+
+    margin-bottom: 84px;
+}
+.atd_block2__column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column_content-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.atd_block2__column img {
+    max-width: 405px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.atd_block2__column p {
+    max-width: 322px;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+
+
+.atd_block3 {
+    background: url(../img/PK_bg_3.jpg) center / cover;
+    width: 100%;
+    height: 100%;
+}
+
+.atd_block3__content {
+    padding: 100px 0;
+}
+
+.atd_block3__item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atd_block3__item h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;
+    text-align: center;
+
+    margin-bottom: 77px;
+}
+
+.atd_block3__column {
+    display: flex;
+    margin-bottom: 43px;
+}
+
+.atd_block3__column img{
+    max-height: 50px;
+}
+
+.atd_block3__column p {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: -0.015em;
+    margin-left: 20px;
+    
+    color: #FFFFFF;
+}
+
+
+.atd_block4__content {
+    padding: 59px 0;
+}
+
+.atd_block4__item p {
+    font-size: 36px;
+    line-height: 45px;
+    /* or 125% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
 /* </UpdatingTheDatabase> */
 
 .wpcf7 .ajax-loader {
