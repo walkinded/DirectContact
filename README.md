@@ -44,3 +44,7 @@
 Автоматическое обслуживание - https://walkinded.github.io/DirectContact/AutomaticMaintenance.html
 
 Информационно-справочный центр - https://walkinded.github.io/DirectContact/HelpDesk.html
+
+Почему мы? - https://walkinded.github.io/DirectContact/whyUs.html
+
+Отраслевое решение - https://walkinded.github.io/DirectContact/industrySolution.html
