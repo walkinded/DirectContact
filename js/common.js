@@ -49,9 +49,11 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100){
-        $('header').addClass('scrolled');         
+        $('header').addClass('scrolled');
+        $('.menu').addClass('scrolled_menu');          
     }else{
-        $('header').removeClass("scrolled");         }
+        $('header').removeClass("scrolled"); 
+        $('.menu').removeClass('scrolled_menu');         }
   });
   
 });
