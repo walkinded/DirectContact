@@ -1468,6 +1468,12 @@ menu{
     color: #535353;
 }
 
+.banks-block4__item p,
+.banks-block4__item ul,
+.banks-block4__item ol {
+    margin-bottom: 15px;
+}
+
 
  .banks-block4__item {
     margin-left: 539px;
