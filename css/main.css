@@ -546,15 +546,15 @@ menu{
       }
       .menu{
           display: none;
-          position: absolute;
-          background: rgba(255, 255, 255, 0.75);
+          /* position: absolute; */
+          /* background: rgba(255, 255, 255, 0.75); */
           width: 100%;
           margin-left: -10px;
           padding-left: 10px;
       }
 
       .scrolled_menu {
-        background: rgba(255, 255, 255, 1);
+        /* background: rgba(255, 255, 255, 1); */
       }
       .menu li{
           display: block;
