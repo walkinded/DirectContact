@@ -49,11 +49,10 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100){
-        $('header').addClass('scrolled');
-        $('.menu').addClass('scrolled_menu');          
+        $('header').addClass('scrolled');        
     }else{
-        $('header').removeClass("scrolled"); 
-        $('.menu').removeClass('scrolled_menu');         }
+        $('header').removeClass("scrolled");    
+      }
   });
   
 });
