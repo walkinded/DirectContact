@@ -518,7 +518,7 @@ textarea {
   
 menu{
     list-style-type: none;
-    padding-top: 200px;
+    /* padding-top: 200px; */
     margin: 0;
   }
   
@@ -551,6 +551,10 @@ menu{
           width: 100%;
           margin-left: -10px;
           padding-left: 10px;
+      }
+
+      .scrolled_menu {
+        background: rgba(255, 255, 255, 1);
       }
       .menu li{
           display: block;
@@ -2915,7 +2919,7 @@ menu{
     padding: 60px 0;
 }
 
-.rsd-block6 .column_vertical li{
+.rsd-block6 .column_vertical{
     font-size: 25px;
     line-height: 34px;
     letter-spacing: -0.015em;
