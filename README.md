@@ -54,3 +54,5 @@
 25. Аутсорсинг контактного центра - https://walkinded.github.io/DirectContact/ContactCenterOutsourcing.html
 
 26. Телефонные опросы - https://walkinded.github.io/DirectContact/TelephoneSurveys.html
+
+27. Контакты - https://walkinded.github.io/DirectContact/contacts.html
